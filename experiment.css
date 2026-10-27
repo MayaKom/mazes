@@ -1,0 +1,32 @@
+/* Maze study: page styles. The maze and its cards are styled inside plugin-maze.js. */
+.consent { max-width: 800px; margin: auto; text-align: left; font-size: 16px; line-height: 1.6; }
+.consent h2 { text-align: center; }
+.intro { max-width: 640px; margin: auto; font-size: 1.15rem; line-height: 1.6; }
+.test { max-width: 640px; margin: auto; font-size: 1.15rem; line-height: 1.6; }
+.test-bush svg { display: block; width: 180px; height: 150px; margin: 0 auto 12px; }
+.test input[type="text"] { font: inherit; padding: 6px 10px; width: 260px; margin: 4px 0 8px; }
+.test-options { display: flex; gap: 16px; justify-content: center; margin: 4px 0 18px; }
+.test-option { padding: 8px 18px; border: 2px solid #C9CEC9; border-radius: 8px; color: #8A938C;
+  background: #F4F5F3; font-weight: 600; }
+.animal-img { width: 160px; height: 160px; display: block; margin: 0 auto 6px; }
+.animal-choice { display: inline-flex; flex-direction: column; align-items: center; gap: 2px;
+  margin: 6px; padding: 6px 10px; font-size: 1rem; }
+.animal-choice img { width: 90px; height: 90px; }
+.guess { font-size: 1.25rem; font-weight: 700; min-height: 1.5em; margin: 8px 0 0; font-variant-numeric: tabular-nums; }
+.results { max-width: 760px; margin: auto; font-size: 1.05rem; line-height: 1.5; }
+.results table { border-collapse: collapse; margin: 10px auto 14px; }
+.results th, .results td { border-bottom: 1px solid #DDE2DD; padding: 6px 12px; text-align: center;
+  font-variant-numeric: tabular-nums; }
+.results th { font-weight: 600; }
+.results .total { font-size: 1.25rem; font-weight: 700; }
+.gain { color: #2E6B2F; } .loss { color: #A3261E; }
+.check-title { font-size: 1.15rem; font-weight: 600; }
+#jspsych-survey-multi-choice_form { max-width: 640px; margin: auto; }
+.preview-menu { max-width: 560px; margin: 40px auto; padding: 0 16px; font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5; color: #1F2421; }
+.preview-menu h1 { font-size: 1.6rem; margin: 0 0 6px; }
+.preview-menu fieldset { border: 1px solid #C9CEC9; border-radius: 8px; margin: 14px 0; padding: 8px 14px 10px; }
+.preview-menu legend { font-weight: 600; padding: 0 4px; }
+.preview-menu label { display: block; margin: 4px 0; cursor: pointer; }
+.preview-tag { position: fixed; top: 8px; left: 8px; z-index: 10; padding: 3px 10px; border-radius: 6px;
+  background: #FFF4D6; color: #6B4E00; font: 600 0.8rem Arial, sans-serif; border: 1px solid #E8D294; }
